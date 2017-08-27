@@ -685,6 +685,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libmorpho_panorama_gp.so:system/vendor/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -850,6 +851,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
