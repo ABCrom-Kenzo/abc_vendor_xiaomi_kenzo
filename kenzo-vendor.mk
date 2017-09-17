@@ -217,6 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/hw/activity_recognition.msm8952.so:system/vendor/lib/hw/activity_recognition.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/hw/sound_trigger.primary.msm8952.so:system/vendor/lib/hw/sound_trigger.primary.msm8952.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/hw/vulkan.msm8952.so:system/vendor/lib/hw/vulkan.msm8952.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
@@ -772,6 +773,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
@@ -904,12 +906,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/xiaomi/kenzo/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/xiaomi/kenzo/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/xiaomi/kenzo/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt
+    vendor/xiaomi/kenzo/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/xiaomi/kenzo/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libthermalclient \
     libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
