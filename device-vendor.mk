@@ -57,7 +57,6 @@ PRODUCT_PACKAGES += \
     fastdormancy \
     shutdownlistener \
     CNEService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
     ims \
