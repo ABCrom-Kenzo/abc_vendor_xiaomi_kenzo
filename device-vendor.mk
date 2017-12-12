@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     TimeService \
     fastdormancy \
-    shutdownlistener \
     CNEService \
     qcrilmsgtunnel \
     colorservice \
