@@ -63,6 +63,4 @@ PRODUCT_PACKAGES += \
     imssettings \
     qcnvitems \
     qcrilhook \
-    com.qualcomm.qti.Performance.xml \
-    libqti_performance \
     QPerformance
