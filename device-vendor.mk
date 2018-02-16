@@ -54,11 +54,7 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     TimeService \
     fastdormancy \
-    CNEService \
     qcrilmsgtunnel \
-    colorservice \
-    ims \
-    imssettings \
     qcnvitems \
     qcrilhook \
     QPerformance
